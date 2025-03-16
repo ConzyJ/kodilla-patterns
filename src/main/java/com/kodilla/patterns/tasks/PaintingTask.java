@@ -1,4 +1,4 @@
-package com.kodilla.patterns.factory.tasks;
+package com.kodilla.patterns.tasks;
 
 public final class PaintingTask implements Task {
 

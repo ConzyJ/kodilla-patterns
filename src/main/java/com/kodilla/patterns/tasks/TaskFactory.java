@@ -1,4 +1,4 @@
-package com.kodilla.patterns.factory.tasks;
+package com.kodilla.patterns.tasks;
 
 public final class TaskFactory {
 
@@ -6,7 +6,7 @@ public final class TaskFactory {
     public static final String PAINTING = "PAINTING";
     public static final String DRIVING = "DRIVING";
 
-    public com.kodilla.patterns.factory.tasks.Task makeTask(final String taskType) {
+    public Task makeTask(final String taskType) {
         return switch (taskType) {
             case SHOPPING -> new ShoppingTask("Grocery shopping", "Milk", 2.0);
             case PAINTING -> new PaintingTask("Wall painting", "Blue", "Living room");

@@ -1,9 +1,8 @@
-package factory.tasks;
+package com.kodilla.patterns.tasks;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import com.kodilla.patterns.factory.tasks.Task;
-import com.kodilla.patterns.factory.tasks.TaskFactory;
+
 
 
 class TaskFactoryTestSuite {
